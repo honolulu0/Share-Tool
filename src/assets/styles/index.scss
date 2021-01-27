@@ -1,0 +1,22 @@
+.el-card__body{
+    padding: 0 ;
+  }
+  .el-carousel__item{
+    >img{
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+  .el-card__body{
+    padding: 0 !important;
+  }
+  .img{
+    width: 100%;
+    height: 60%;
+    img{
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }

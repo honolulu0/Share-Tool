@@ -1,0 +1,32 @@
+/*
+ * @Author: Guodong Hao
+ * @Date: 2020-12-09 10:16:36
+ * @LastEditTime: 2021-01-15 16:32:16
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \Share Tool\src\common\global.js
+ */
+// 根据 process.env.HOST 的值判断当前是什么环境,host配置在 config下的dev.env.js和prod.env.js
+// 如命令：npm run build -- test ，process.env.HOST就为：'test'
+// 如命令：npm run dev  ，process.env.HOST就为：'dev'
+// 如命令：npm run build  ，process.env.HOST就为：'prod'
+
+const HOST = process.env.HOST;
+
+const URL_CONFIG = {
+  'dev': {
+    home: '/api'
+  },
+  'test': {
+    home: 'http://10.245.29.91:8080'
+  },
+  'prod': {
+    home: 'http://10.245.29.91:8080'
+  }
+}
+
+let {home} = URL_CONFIG[HOST]
+
+export default {
+  HOME: home
+}

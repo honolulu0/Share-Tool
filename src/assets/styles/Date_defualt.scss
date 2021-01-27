@@ -1,0 +1,48 @@
+thead{
+    display: none;
+}
+.prev{
+    width: 30px !important;
+}
+.el-calendar-table__row{
+    height: 30px !important;
+    >tr{
+        height: 30px !important;
+        >td{
+            height: 30px !important;
+        }
+    }
+}
+body .current .is-today{
+    width: 30px !important;
+    height: 30px;
+}
+tr{
+    height: 30px !important;
+}
+td{
+    width: 30px !important;
+    height: 30px !important;
+}
+.el-calendar-day{
+    height: 30px !important;
+    float: left;
+}
+.body .el-calendar-table{
+     width: 20%;
+}
+.el-form-item__label{
+    color: #606266 !important;
+}
+// .el-breadcrumb__item:last-child .el-breadcrumb__inner{
+//     color: #606266 !important;
+// }
+.el-input__inner{
+    color: #606266 !important;
+}
+.el-select-dropdown__item{
+    color: #606266 !important;
+}
+body .el-table .caret-wrapper{
+    width: 0 !important;
+  }

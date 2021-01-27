@@ -1,0 +1,87 @@
+/*各个页面私有css*/
+.select>.el-input__inner{
+    width: 300px !important;
+  }
+  .el-input__inner{
+    color: #333 !important;
+    font-weight: none !important;
+  }
+  .el-form-item__label{
+    color: #333 !important;
+    border-color: #405066 !important;
+    font-size: 17px !important;
+  }
+  body .el-select .el-input .el-select__caret{
+    color: #333 !important;
+  }
+  .el-select-dropdown__item{
+    color: #333 !important;
+  }
+  .body_Detial>div>div:nth-of-type(2){
+    display: block !important;
+  }
+  .el-dialog__body{
+    color: #333 !important;
+  }
+  .el-textarea__inner{
+    color: #333 !important;
+  }
+  .el-textarea__inner::-webkit-input-placeholder{
+    color: #333 !important;
+  }
+  .roolback>div>div:nth-of-type(2)>form>div>.el-form-item__label{
+      font-size: 20px;
+  }
+  .roolback>div>div:nth-of-type(2)>form>div>.el-form-item__content>div:nth-of-type(2){
+      font-size: 16px;
+  }
+  .el-message-box__content{
+    color: #333 !important;
+  }
+  .el-select-dropdown__item.hover {
+    color: #3b91ff !important;
+  }
+  .el-badge__content.is-fixed{
+    top: 8px !important;
+  }
+  // 改变字体的颜色，和大小
+  .el-table__header-wrapper>.el-table__header>.has-gutter>tr>th>.cell{
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 600 !important;
+  }
+  .body_Detial .el-dialog__body .Detailsitem>p>span:nth-of-type(1){
+    font-weight: 600 !important;
+  }
+  .el-breadcrumb__inner{
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    color: #333 !important;
+  }
+  .headerSize{
+    >th{
+      >div{
+        font-size: 16px !important;
+      }
+    }
+  }
+  .body .el-select-dropdown__wrap {
+    margin-bottom: -10px !important;
+    padding-left: 0 !important;
+  }
+  .body .el-scrollbar__wrap{
+    padding-left: 0 !important;
+    margin-bottom: -10px !important;
+  }
+  body .el-select-dropdown__list{
+    padding-bottom: 20px !important;
+  }
+  .el-popconfirm__main{
+    margin-bottom: 10px !important;
+  }
+  body .el-table .caret-wrapper{
+    width: none !important;
+  }
+  body .el-button--mini{
+    padding: 7px 9px !important;
+  }
